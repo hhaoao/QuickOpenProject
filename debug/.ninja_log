@@ -1,0 +1,19 @@
+# ninja log v5
+20619	25562	6432734120518258	tests/CMakeFiles/test_sys_exe_path.dir/Unity/unity_0_cxx.cxx.obj	c32f7e65dc470cf0
+29391	47982	6432734343490677	lib/libproject_template.a	275ccb2151fe2a0b
+22347	35497	6432734219996907	tests/CMakeFiles/test_ini.dir/Unity/unity_0_cxx.cxx.obj	f3a4c914a513226c
+27055	53815	6432829645802260	src/qopenproject.exe	ec36a372ba3ef47
+11	29390	6432734158844623	lib/CMakeFiles/project_template.dir/Unity/unity_0_cxx.cxx.obj	4a948bcdb32fb7aa
+6972	20618	6432734070549101	tests/CMakeFiles/test_inja.dir/Unity/unity_0_cxx.cxx.obj	5045dde42c465046
+26784	46485	6432734329639249	lib/CMakeFiles/config_file_parser_class.dir/Unity/unity_0_cxx.cxx.obj	7d64a23ba404898
+47982	69559	6432734561050892	tests/test_inja.exe	1b119a990aa1733d
+46486	50873	6432734372522768	lib/libconfig_file_parser_class.a	ceaaaf3fd85b2873
+5483	6972	6432733933923397	lib/libpath_function.a	aac2cabc751b24f3
+56	27054	6432829378281461	src/CMakeFiles/qopenproject.dir/Unity/unity_0_cxx.cxx.obj	b8e41bc5cb7e08cc
+15307	16000	6432828191734866	lib/libdata.a	8a2827d7ed08b408
+52473	59929	6432734462397313	tests/test_ini.exe	e30b5123ea04cc5
+55	15306	6432828184809905	lib/CMakeFiles/data.dir/Unity/unity_0_cxx.cxx.obj	b15afdf302366933
+8	5474	6432733919702183	lib/CMakeFiles/path_function.dir/Unity/unity_0_cxx.cxx.obj	29428e01f115a56d
+25562	26784	6432734130981797	tests/test_sys_exe_path.exe	37296b2b7c1d173e
+55	28127	6432842897262943	src/CMakeFiles/qopenproject.dir/Unity/unity_0_cxx.cxx.obj	b8e41bc5cb7e08cc
+28128	54445	6432843160485013	src/qopenproject.exe	ec36a372ba3ef47
