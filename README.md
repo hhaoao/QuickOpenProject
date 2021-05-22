@@ -3,9 +3,9 @@
 
 # 使用
 
-> qopenproject --template cpp
-> ...会弹出编辑器,编写'qop.json'.
-> qopenproject
+> qopenproject --template cpp ； 此命令选择模板.
+> 
+> qopenproject                ； 此命令初始化.
 
 没有多少选项,直接"qopenproject --help"查看.
 模板格式见"tests/assets/templates"目录,更多查看"pantor/inja"项目.
