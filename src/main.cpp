@@ -68,7 +68,9 @@ int main(int argc, char *argv[])
   };
 
   if (vm.count("target-path")) {
-    if (!vm.count("template") && !vm.count("help") && !vm.count("run")) {
+    bool run_string_is_empty = vm["run"].as<std::string>().empty();
+    if (!vm.count("template") && !vm.count("help") && run_string_is_empty) {
+
       boost::filesystem::path target_path = boost::filesystem::path(vm["target-path"].as<std::string>());
       boost::filesystem::path config_json =
         boost::filesystem::canonical(target_path) / "qop.json";
@@ -127,7 +129,9 @@ int main(int argc, char *argv[])
     env_["PATH"] += {qop_ini.run_env};
 
     std::string run_string = vm["run"].as<std::string>();
-    bp::system(run_string, env_);
+    if (!run_string.empty()) {
+      bp::system(run_string, env_);
+    }
 
   }
   

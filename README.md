@@ -4,7 +4,7 @@
 # 使用
 
 > qopenproject --template cpp
-...会弹出编辑器,编写'qop.json'.
+> ...会弹出编辑器,编写'qop.json'.
 > qopenproject
 
 没有多少选项,直接"qopenproject --help"查看.
